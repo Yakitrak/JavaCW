@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectDiameter\ objectColor\ theUniverse
+comment0.target=Comet7(int,\ int,\ int,\ int,\ int,\ java.awt.Color,\ Universe)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BlackHole\r\n\r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ xVel\ \ the\ horizontal\ speed\ of\ the\ object\r\n\ @param\ yVel\ \ the\ vertical\ speed\ of\ the\ object\r\n\ @param\ objectDiameter\ \ the\ diameter\ (in\ pixels)\ of\ the\ object\r\n\ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ @param\ theUniverse\ \ the\ universe\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ changeEdge()
+comment1.text=\r\n\ Object\ speed\ is\ changed\ to\ a\ randomm\ speed\ when\ hitting\ an\ edge.\ Work\ from\ abstract\ method\ in\ Comet\ class.\r\n
+comment2.params=
+comment2.target=void\ changeMove()
+comment2.text=\r\n\ Object\ colour\ is\ changed\ to\ a\ random\ colour\ whilst\ moving.\ Working\ from\ abstract\ method\ in\ Comet.\r\n
+numComments=3

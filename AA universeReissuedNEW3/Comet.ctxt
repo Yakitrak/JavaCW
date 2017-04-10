@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectDiameter\ objectColor\ theUniverse
+comment0.target=Comet(int,\ int,\ int,\ int,\ int,\ java.awt.Color,\ Universe)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Space_Object\r\n\r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ xVel\ \ the\ horizontal\ speed\ of\ the\ object\r\n\ @param\ yVel\ \ the\ vertical\ speed\ of\ the\ object\r\n\ @param\ objectDiameter\ \ the\ diameter\ (in\ pixels)\ of\ the\ object\r\n\ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ @param\ theUniverse\ \ the\ universe\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Abstract\ method\ from\ Space_Object.\ Moves\ in\ straight\ lines,\ checking\ for\ wall\ collisions.\r\n
+comment2.params=
+comment2.target=void\ timeTick()
+comment2.text=\r\n\ Deducts\ a\ random\ amount\ of\ time\ from\ time\ to\ execute\ comet\ behaviour.\ If\ 0,\ it\ will\ reset\ it.\r\n
+comment3.params=
+comment3.target=void\ changeEdge()
+comment3.text=\r\n\ Abstract\ method\ required\ to\ call\ the\ appropriate\ changeEdge\ method\ in\ sub\ class\ comet\ 6\ and\ 7.\r\n
+comment4.params=
+comment4.target=void\ changeMove()
+comment4.text=\r\n\ Abstract\ method\ required\ to\ call\ the\ appropriate\ changeMove\ method\ in\ sub\ class\ comet\ 6\ and\ 7.\r\n
+comment5.params=
+comment5.target=void\ cometCollide()
+comment5.text=\r\n\ Checks\ for\ collisions\ between\ comets\ and\ all\ space\ objects.\ Includes\ comet\ to\ comet,\ star\ and\ planet\ collisions.\ Also\ BlackHole\ attraction.\r\n
+comment6.params=x1\ y1\ x2\ y2
+comment6.target=int\ calcDist(int,\ int,\ int,\ int)
+comment6.text=\r\n\ Calculates\ the\ distance\ between\ 2\ points\ given\ \r\n\ @param\ x1\ x\ position\ of\ the\ first\ object\r\n\ @parem\ y1\ y\ position\ of\ the\ first\ object\r\n\ @parem\ x2\ x\ position\ of\ the\ second\ object\r\n\ @parem\ y2\ x\ positiono\ f\ the\ second\ object\r\n
+comment7.params=x\ y
+comment7.target=int\ calcSpeed(int,\ int)
+comment7.text=\r\n\ Calculates\ the\ speed\ of\ an\ object\ (for\ comparing\ purposes)\r\n\ @param\ x\ xspeed\ of\ the\ objct\r\n\ @parem\ y\ yspeed\ of\ the\ object\r\n
+numComments=8

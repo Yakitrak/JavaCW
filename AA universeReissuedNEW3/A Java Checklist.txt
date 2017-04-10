@@ -1,0 +1,10 @@
+- Comet behaviour - Done
+- Put Every object in array - Done
+- Planet Orbits - Done 
+
+- Comet Collision
+- Star comet collision
+- Planet collision 
+
+- Black hole
+
